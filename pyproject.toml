@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gauge-sc"
+version = "0.1.0a2"
+description = "View-specific evaluation and audit of biological groupings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT AND OFL-1.1"
+license-files = ["LICENSE", "src/gauge_sc/fonts/LICENSE.txt"]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9", "scikit-learn>=1.2", "anndata>=0.9", "matplotlib>=3.7", "seaborn>=0.13"]
+
+[project.urls]
+Source = "https://github.com/zhanglabtools/gauge-sc"
+
+[project.scripts]
+gauge = "gauge_sc.cli:main"
+
+[project.optional-dependencies]
+validation = ["scanpy>=1.9", "igraph>=0.10", "leidenalg>=0.9"]
+tutorial = ["scanpy>=1.9", "igraph>=0.10", "nbformat>=5", "nbclient>=0.8", "ipykernel>=6"]
+docs = ["sphinx>=8,<9", "furo>=2024.8.6", "myst-nb>=1.2,<2", "sphinx-copybutton>=0.5,<1", "sphinx-design>=0.6,<1"]
+
+reproduction = ["scanpy>=1.9", "igraph>=0.10", "leidenalg>=0.9"]
+dev = ["pytest>=7", "black>=23", "build>=1", "ipython>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["gauge_sc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.setuptools.package-data]
+gauge_sc = ["fonts/*.otf", "fonts/*.txt", "tutorial_data.json"]

@@ -1,0 +1,73 @@
+{
+  "version": "tutorial-data-v1",
+  "seed": 0,
+  "datasets": {
+    "ding_pbmc": {
+      "filename": "ding_pbmc.h5ad",
+      "sha256": "8e396f78c6314032de584fbf272983b15d0643f8788074ed52083e346585cf92",
+      "source": "Ding2020_PBMC/Ding2020_PBMC1.h5ad",
+      "source_sha256": "98501ae1a62d000529b1c354cbb8717597d8a6720150f27ab538203d9814b83e",
+      "accession": "GSE132044",
+      "n_obs": 2000,
+      "n_vars": 33694,
+      "bytes": 6526219,
+      "sampling": "1000 cells per prespecified method, uniform without replacement; no cell-type balancing",
+      "expression_scale": "source expression used as supplied; see upstream preprocessing",
+      "url": "https://github.com/zhanglabtools/gauge-sc/releases/download/tutorial-data-v1/ding_pbmc.h5ad"
+    },
+    "ding_mixture": {
+      "filename": "ding_mixture.h5ad",
+      "sha256": "bcb249886ebd39b61f06bb0ff9dbc61c44188c69b0e8a1c48d90703227224877",
+      "source": "Ding2020_Mixture/Ding2020_Mixture_processed.h5ad",
+      "source_sha256": "f5026a6823838d66dc6986d97641fb1612797f9e65a3532c8d48143d98eff271",
+      "accession": "GSE132044",
+      "n_obs": 3159,
+      "n_vars": 15796,
+      "bytes": 28152183,
+      "sampling": "all cells in prespecified Mixture1 / 10x Chromium v2; species labels never used for sampling",
+      "expression_scale": "species-blind shared-gene counts; source QC retained",
+      "url": "https://github.com/zhanglabtools/gauge-sc/releases/download/tutorial-data-v1/ding_mixture.h5ad"
+    },
+    "abc_hpf": {
+      "filename": "abc_hpf.h5ad",
+      "sha256": "04869b5523ef81b5bbe9d4f6560bf212b357e05252f9df1f375bfc7a6418035b",
+      "source": "abc_hpf_pilot/hpf_full_log2.h5ad",
+      "source_sha256": "99e914b9ee94ac581580ab31790c2fc3b8be0995015f879c4d594771c240dcdc",
+      "accession": "Allen ABC MERFISH; source metadata retained locally",
+      "n_obs": 3000,
+      "n_vars": 500,
+      "bytes": 1498965,
+      "sampling": "uniform sample of up to 3000 cells in prespecified HPF slice x_CCF 6.8\u20137.0 mm, DG/CA1/CA2/CA3; no taxonomy balancing",
+      "expression_scale": "provided log2 expression over 500 genes; no additional log transform",
+      "url": "https://github.com/zhanglabtools/gauge-sc/releases/download/tutorial-data-v1/abc_hpf.h5ad"
+    },
+    "vasculature": {
+      "filename": "vasculature.h5ad",
+      "sha256": "f222c3c11ef31dc7216131cd798b7012aa994b2a772e4fd67fe2263bb6f7c71a",
+      "source": "exp05_human_brain_vasculature/processed/waelchli_brain_sorted_endothelial_cellvoyager_masked_50k_seed0.h5ad",
+      "source_sha256": "552db3d2f9f6644b0b72d631b2da3a3097f458f04b91739d671f5ef336252f3d",
+      "accession": "GSE256493",
+      "n_obs": 2500,
+      "n_vars": 26666,
+      "bytes": 14475024,
+      "sampling": "2500 cells uniformly sampled from fixed masked 50000-cell search input; donor and biological labels excluded",
+      "expression_scale": "counts",
+      "url": "https://github.com/zhanglabtools/gauge-sc/releases/download/tutorial-data-v1/vasculature.h5ad"
+    },
+    "allen_cortex": {
+      "filename": "allen_cortex.h5ad",
+      "sha256": "01cefd008ac65c728db0a72de7de308cf31cf6a500ee97159787d1954304eafa",
+      "source": "Allen_Cortex_20k/allen_cortex_20k.h5ad",
+      "source_sha256": "e127615cf19f9a540aaa70dc09d13b5e035e7e4cddbb4d9c5858fcdbbd9663ff",
+      "accession": "Allen whole mouse brain isocortex reference",
+      "n_obs": 3000,
+      "n_vars": 2000,
+      "bytes": 2185934,
+      "sampling": "3000 cells uniformly sampled without replacement from the fixed 20000-cell isocortical reference; no label balancing",
+      "expression_scale": "normalize total counts to 10000 over all source genes, log1p, then subset to 2000 Seurat HVGs; no second normalization or log transform",
+      "url": "https://github.com/zhanglabtools/gauge-sc/releases/download/tutorial-data-v1/allen_cortex.h5ad"
+    }
+  },
+  "schema_version": 1,
+  "release_destination": "zhanglabtools/gauge-sc"
+}

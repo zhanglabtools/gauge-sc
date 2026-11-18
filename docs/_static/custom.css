@@ -1,0 +1,24 @@
+/* Keep Furo's responsive layout; make scientific tables readable on small screens. */
+.content .table-wrapper { overflow-x: auto; }
+.cell_output { overflow-x: auto; }
+.cell_output img { background: white; }
+article img { height: auto; }
+.sidebar-brand-text { font-weight: 700; letter-spacing: -0.03em; }
+
+@font-face {
+  font-family: Inter;
+  src: url("fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+body { --font-stack: Inter, system-ui, sans-serif; }
+table { font-variant-numeric: tabular-nums; }
+article .application-icon { width: 130px; margin: 0.6rem auto; display: block; }
+
+/* Canopy wordmark scales with the sidebar and switches with Furo's theme. */
+.sidebar-logo-container { margin: 0.65rem 0 0.25rem; }
+.sidebar-logo { width: 100%; max-width: 210px; height: auto; }
+
+/* Final canopy mark on the documentation landing page. */
+article .project-logo { max-width: 100%; height: auto; margin: 0.25rem 0 1rem; }

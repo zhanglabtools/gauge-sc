@@ -1,0 +1,381 @@
+{
+  "panel_numbering": "paper",
+  "scope": "Reconstruct 41 quantitative panels from frozen results.",
+  "panels": [
+    {
+      "id": "fig2a",
+      "figure": 2,
+      "panel": "a",
+      "kind": "quantitative",
+      "tables": [
+        "fig2a.csv"
+      ]
+    },
+    {
+      "id": "fig2b",
+      "figure": 2,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig2b.csv"
+      ]
+    },
+    {
+      "id": "fig2c",
+      "figure": 2,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig2c.csv"
+      ]
+    },
+    {
+      "id": "fig2d",
+      "figure": 2,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig2d.csv"
+      ]
+    },
+    {
+      "id": "fig2e",
+      "figure": 2,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig2e.csv"
+      ]
+    },
+    {
+      "id": "fig2f",
+      "figure": 2,
+      "panel": "f",
+      "kind": "quantitative",
+      "tables": [
+        "fig2f.csv"
+      ]
+    },
+    {
+      "id": "fig2g",
+      "figure": 2,
+      "panel": "g",
+      "kind": "quantitative",
+      "tables": [
+        "fig2g.csv"
+      ]
+    },
+    {
+      "id": "fig2h",
+      "figure": 2,
+      "panel": "h",
+      "kind": "quantitative",
+      "tables": [
+        "fig2h.csv"
+      ]
+    },
+    {
+      "id": "fig2i",
+      "figure": 2,
+      "panel": "i",
+      "kind": "quantitative",
+      "tables": [
+        "fig2i.csv"
+      ]
+    },
+    {
+      "id": "fig3b",
+      "figure": 3,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig3b.csv"
+      ]
+    },
+    {
+      "id": "fig3c",
+      "figure": 3,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig3c.csv"
+      ]
+    },
+    {
+      "id": "fig3d",
+      "figure": 3,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig3d.csv"
+      ]
+    },
+    {
+      "id": "fig3e",
+      "figure": 3,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig3e.csv"
+      ]
+    },
+    {
+      "id": "fig3f",
+      "figure": 3,
+      "panel": "f",
+      "kind": "quantitative",
+      "tables": [
+        "fig3f.csv"
+      ]
+    },
+    {
+      "id": "fig4b",
+      "figure": 4,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig4b.csv"
+      ]
+    },
+    {
+      "id": "fig4c",
+      "figure": 4,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig4c.csv"
+      ]
+    },
+    {
+      "id": "fig4d",
+      "figure": 4,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig4d.csv"
+      ]
+    },
+    {
+      "id": "fig4e",
+      "figure": 4,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig4e.csv"
+      ]
+    },
+    {
+      "id": "fig4f",
+      "figure": 4,
+      "panel": "f",
+      "kind": "quantitative",
+      "tables": [
+        "fig4f.csv"
+      ]
+    },
+    {
+      "id": "fig5a",
+      "figure": 5,
+      "panel": "a",
+      "kind": "quantitative",
+      "tables": [
+        "fig5a.csv"
+      ]
+    },
+    {
+      "id": "fig5b",
+      "figure": 5,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig5b.csv"
+      ]
+    },
+    {
+      "id": "fig5c",
+      "figure": 5,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig5c.csv",
+        "fig5c_cluster_summary.csv"
+      ]
+    },
+    {
+      "id": "fig5d",
+      "figure": 5,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig5d.csv"
+      ]
+    },
+    {
+      "id": "fig5e",
+      "figure": 5,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig5e.csv"
+      ]
+    },
+    {
+      "id": "fig5f",
+      "figure": 5,
+      "panel": "f",
+      "kind": "quantitative",
+      "tables": [
+        "fig5f.csv"
+      ]
+    },
+    {
+      "id": "fig5g",
+      "figure": 5,
+      "panel": "g",
+      "kind": "quantitative",
+      "tables": [
+        "fig5g.csv",
+        "fig5g_cluster_summary.csv"
+      ]
+    },
+    {
+      "id": "fig5h",
+      "figure": 5,
+      "panel": "h",
+      "kind": "quantitative",
+      "tables": [
+        "fig5h.csv"
+      ]
+    },
+    {
+      "id": "fig6b",
+      "figure": 6,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig6b.csv"
+      ]
+    },
+    {
+      "id": "fig6c",
+      "figure": 6,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig6c.csv"
+      ]
+    },
+    {
+      "id": "fig6d",
+      "figure": 6,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig6d.csv",
+        "fig6d_slice.csv"
+      ]
+    },
+    {
+      "id": "fig6e",
+      "figure": 6,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig6e_left.csv",
+        "fig6e_right.csv",
+        "fig6ef_terminal_level_pies.csv"
+      ]
+    },
+    {
+      "id": "fig6f",
+      "figure": 6,
+      "panel": "f",
+      "kind": "quantitative",
+      "tables": [
+        "fig6f_left.csv",
+        "fig6f_right.csv"
+      ]
+    },
+    {
+      "id": "fig6g",
+      "figure": 6,
+      "panel": "g",
+      "kind": "quantitative",
+      "tables": [
+        "fig6g.csv"
+      ]
+    },
+    {
+      "id": "fig6h",
+      "figure": 6,
+      "panel": "h",
+      "kind": "quantitative",
+      "tables": [
+        "fig6h.csv"
+      ]
+    },
+    {
+      "id": "fig6i",
+      "figure": 6,
+      "panel": "i",
+      "kind": "quantitative",
+      "tables": [
+        "fig6i.csv"
+      ]
+    },
+    {
+      "id": "fig6j",
+      "figure": 6,
+      "panel": "j",
+      "kind": "quantitative",
+      "tables": [
+        "fig6j.csv"
+      ]
+    },
+    {
+      "id": "fig6k",
+      "figure": 6,
+      "panel": "k",
+      "kind": "quantitative",
+      "tables": [
+        "fig6k.csv"
+      ]
+    },
+    {
+      "id": "fig7b",
+      "figure": 7,
+      "panel": "b",
+      "kind": "quantitative",
+      "tables": [
+        "fig7b.csv"
+      ]
+    },
+    {
+      "id": "fig7c",
+      "figure": 7,
+      "panel": "c",
+      "kind": "quantitative",
+      "tables": [
+        "fig7c.csv"
+      ]
+    },
+    {
+      "id": "fig7d",
+      "figure": 7,
+      "panel": "d",
+      "kind": "quantitative",
+      "tables": [
+        "fig7d.csv"
+      ]
+    },
+    {
+      "id": "fig7e",
+      "figure": 7,
+      "panel": "e",
+      "kind": "quantitative",
+      "tables": [
+        "fig7e.csv"
+      ]
+    }
+  ]
+}

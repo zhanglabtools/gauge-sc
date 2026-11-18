@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.00 184" role="img" aria-label="GAUGE canopy">
+<title>GAUGE canopy</title>
+<desc></desc>
+<path fill="#75C7EE" d="M82 177 C88 155 87 129 88 101 L88 49 C88 45 96 45 96 49 L96 102 C96 128 97 154 102 177Z"/>
+<g fill="none" stroke="#75C7EE" stroke-linecap="round" stroke-linejoin="round">
+<path d="M91 108 C87 92 62 85 49 66" stroke-width="8.5"/>
+<path d="M95 136 C112 111 107 98 115 82 C121 73 133 66 140 57" stroke-width="8.5"/>
+<path d="M98 133 C114 113 130 107 150 97" stroke-width="8"/>
+</g>
+<circle cx="92" cy="32" r="28" fill="#75C7EE"/>
+<circle cx="39" cy="58" r="24" fill="#75C7EE"/>
+<circle cx="144" cy="52" r="21" fill="#B4DFF4"/>
+<circle cx="156" cy="94" r="15" fill="#F4B942"/>
+</svg>

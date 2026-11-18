@@ -1,0 +1,4 @@
+interface:
+  display_name: "GAUGE"
+  short_description: "Evaluate, audit and select biological groupings"
+  default_prompt: "Use $gauge to evaluate my AnnData groupings and explain the result."

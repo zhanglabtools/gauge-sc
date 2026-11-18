@@ -1,0 +1,240 @@
+{
+  "generated_by": "Codex using the repository GAUGE skill",
+  "skill_sha256": "040ad9dceda099ae8bd443b5d5694b352cca89eabb79fb6d560cdae3457ed206",
+  "notebook_sha256": "c8d9c78a0f26d17ea6081e630917a2f012bab0e336e8415b1f1e2c63735bdb40",
+  "versions": {
+    "gauge_sc": "0.1.0a2",
+    "anndata": "0.13.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1"
+  },
+  "data": {
+    "kind": "synthetic",
+    "design_version": 3,
+    "random_state": 0,
+    "description": "Controlled two-view teaching example; not biological validation.",
+    "qc_provenance": "Independent synthetic covariates; not derived from X.",
+    "expression_scale": "Nonnegative synthetic features; not counts."
+  },
+  "evaluation": {
+    "schema_version": 1,
+    "package_version": "0.1.0a2",
+    "aggregation": "pooled",
+    "n_splits": 5,
+    "random_state": 0,
+    "views": {
+      "molecular": {
+        "obsm": "X_pca"
+      },
+      "qc": {
+        "obs": [
+          "total_counts",
+          "n_genes_by_counts",
+          "pct_counts_mt"
+        ],
+        "log1p": [
+          "total_counts",
+          "n_genes_by_counts"
+        ]
+      }
+    },
+    "view_fingerprints": {
+      "molecular": "829fc9d9d27c2e7b58f6e81a3076ec75b951e7ba53a1c21e2d8896cac312920c",
+      "qc": "03746175939b657703c1014e82fe1d4bda587b0f4d2b9ff8fc17226138332c2b"
+    },
+    "grouping_fingerprints": {
+      "group": "a90dca790b301b7335f11b71bf20d42d635cfa12d9af96dda5fdbe9f6b032d6a"
+    },
+    "classifier": "RandomForestClassifier(n_jobs=1, random_state=0)",
+    "classifier_class": "sklearn.ensemble._forest.RandomForestClassifier",
+    "versions": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "anndata": "0.13.4"
+    },
+    "obs_names_sha256": "2716469b1f7f37baa1bf16704a822aa31a32f2ec9750231d98e7a29c484b1f58",
+    "metric": "ITCA",
+    "score_units": "nats",
+    "fold_score_sd_description": "Variation across overlapping training folds; not a confidence interval",
+    "evaluation_scope": "Fixed assignments and fixed input representations; within-dataset prediction"
+  },
+  "audit": {
+    "schema_version": 1,
+    "groupby": "group",
+    "reference": "molecular",
+    "contrast": "qc",
+    "min_test_cells": 10,
+    "maximum_mirror_ratio": null,
+    "center": -0.18764133580176234,
+    "threshold": null,
+    "centering_scope": "eligible groups within one grouping",
+    "status": "ok",
+    "screening_status": "disabled",
+    "screening": {
+      "reason": "disabled",
+      "message": "Screening is disabled; continuous contrasts remain available.",
+      "eligible_count": 7,
+      "positive_group_count": 3,
+      "minimum_positive_count": null,
+      "threshold": null,
+      "positive_tail_count": null,
+      "negative_tail_count": null,
+      "achieved_mirror_ratio": null,
+      "candidate_count": 0
+    },
+    "interpretation": "Group-level descriptive screening; no p-values or FDR guarantee",
+    "evaluation": {
+      "schema_version": 1,
+      "package_version": "0.1.0a2",
+      "aggregation": "pooled",
+      "n_splits": 5,
+      "random_state": 0,
+      "views": {
+        "molecular": {
+          "obsm": "X_pca"
+        },
+        "qc": {
+          "obs": [
+            "total_counts",
+            "n_genes_by_counts",
+            "pct_counts_mt"
+          ],
+          "log1p": [
+            "total_counts",
+            "n_genes_by_counts"
+          ]
+        }
+      },
+      "view_fingerprints": {
+        "molecular": "829fc9d9d27c2e7b58f6e81a3076ec75b951e7ba53a1c21e2d8896cac312920c",
+        "qc": "03746175939b657703c1014e82fe1d4bda587b0f4d2b9ff8fc17226138332c2b"
+      },
+      "grouping_fingerprints": {
+        "group": "a90dca790b301b7335f11b71bf20d42d635cfa12d9af96dda5fdbe9f6b032d6a"
+      },
+      "classifier": "RandomForestClassifier(n_jobs=1, random_state=0)",
+      "classifier_class": "sklearn.ensemble._forest.RandomForestClassifier",
+      "versions": {
+        "numpy": "2.5.4",
+        "pandas": "3.0.6",
+        "scikit-learn": "1.9.1",
+        "anndata": "0.13.4"
+      },
+      "obs_names_sha256": "2716469b1f7f37baa1bf16704a822aa31a32f2ec9750231d98e7a29c484b1f58",
+      "metric": "ITCA",
+      "score_units": "nats",
+      "fold_score_sd_description": "Variation across overlapping training folds; not a confidence interval",
+      "evaluation_scope": "Fixed assignments and fixed input representations; within-dataset prediction"
+    }
+  },
+  "table": [
+    {
+      "group": "M0",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.277987164150759,
+      "contrast_contribution": 0.059072272382036,
+      "reference_recall": 1.0,
+      "contrast_recall": 0.2125,
+      "difference": -0.218914891768723,
+      "eligible": true,
+      "reason": "",
+      "contrast": -0.03127355596696
+    },
+    {
+      "group": "M1",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.277987164150759,
+      "contrast_contribution": 0.090345828348997,
+      "reference_recall": 1.0,
+      "contrast_recall": 0.325,
+      "difference": -0.187641335801762,
+      "eligible": true,
+      "reason": "",
+      "contrast": 0.0
+    },
+    {
+      "group": "M2",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.277987164150759,
+      "contrast_contribution": 0.072971630589574,
+      "reference_recall": 1.0,
+      "contrast_recall": 0.2625,
+      "difference": -0.205015533561185,
+      "eligible": true,
+      "reason": "",
+      "contrast": -0.017374197759422
+    },
+    {
+      "group": "M3",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.277987164150759,
+      "contrast_contribution": 0.072971630589574,
+      "reference_recall": 1.0,
+      "contrast_recall": 0.2625,
+      "difference": -0.205015533561185,
+      "eligible": true,
+      "reason": "",
+      "contrast": -0.017374197759422
+    },
+    {
+      "group": "Q0",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.090345828348997,
+      "contrast_contribution": 0.277987164150759,
+      "reference_recall": 0.325,
+      "contrast_recall": 1.0,
+      "difference": 0.187641335801762,
+      "eligible": true,
+      "reason": "",
+      "contrast": 0.375282671603525
+    },
+    {
+      "group": "Q1",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.104245186556535,
+      "contrast_contribution": 0.277987164150759,
+      "reference_recall": 0.375,
+      "contrast_recall": 1.0,
+      "difference": 0.173741977594224,
+      "eligible": true,
+      "reason": "",
+      "contrast": 0.361383313395987
+    },
+    {
+      "group": "Q2",
+      "n_cells": 80,
+      "proportion": 0.142857142857143,
+      "information_mass": 0.277987164150759,
+      "min_test_cells": 16,
+      "reference_contribution": 0.111194865660304,
+      "contrast_contribution": 0.277987164150759,
+      "reference_recall": 0.4,
+      "contrast_recall": 1.0,
+      "difference": 0.166792298490455,
+      "eligible": true,
+      "reason": "",
+      "contrast": 0.354433634292218
+    }
+  ],
+  "input_unchanged": true,
+  "saved_result_reuse_matches": true
+}

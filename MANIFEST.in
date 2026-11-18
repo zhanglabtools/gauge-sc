@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+recursive-include docs *.md *.rst *.png *.svg *.py *.css *.woff2 *.txt *.csv *.json
+include .readthedocs.yaml
+recursive-include notebooks *.ipynb *.md
+recursive-include scripts *.py
+prune artifacts
+prune data
+global-exclude *.h5ad
+recursive-include .agents/skills/gauge *.md *.yaml
+recursive-include reproduction *.py *.md *.json
