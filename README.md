@@ -11,21 +11,28 @@ Use ITCA to measure how well a data view predicts group assignments and to
 compare molecular and quality-control (QC) contributions. Use ITCA+ to select
 a grouping from flat or hierarchical candidates.
 
+- **[Documentation](https://gauge-sc.readthedocs.io/en/latest/)** · Browse the user guide and API reference.
 - **[Tutorials](docs/real-data-tutorials.md)** · Learn GAUGE with runnable notebooks and real datasets.
-- **[Paper reproduction](reproduction/README.md)** · Browse Figures 1–6 and redraw the 41 results from frozen source tables.
+- **[Paper reproduction](reproduction/README.md)** · Replay 41 quantitative panels from frozen results, grouped as Figures 1–6.
 
 ## Install
 
-Use Python 3.10 or newer. From the root of a GAUGE software checkout, run:
+Use Python 3.10 or newer. In an activated virtual environment, install the
+alpha release from [PyPI](https://pypi.org/project/gauge-sc/0.1.0a2/) with
+either pip or uv.
 
 ```bash
-python -m pip install .
+python -m pip install gauge-sc==0.1.0a2
+```
+
+```bash
+uv pip install gauge-sc==0.1.0a2
 ```
 
 The Python distribution is `gauge-sc`, the module is `gauge_sc`, and the CLI
-command is `gauge`. For the notebook dependencies, install with
-`python -m pip install ".[tutorial]"`. Real-data inputs are available from
-the [tutorial data release](https://github.com/zhanglabtools/gauge-sc/releases/tag/tutorial-data-v1).
+command is `gauge`. From a local checkout, use `python -m pip install .` or
+`python -m pip install ".[tutorial]"` to include the notebook dependencies.
+Real-data inputs are available from the [tutorial data release](https://github.com/zhanglabtools/gauge-sc/releases/tag/tutorial-data-v1).
 
 ## Quick start
 
